@@ -5,10 +5,15 @@ description = ""
 authors = ["Netanel <netanel@cardlatch.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "^3.8"
+Flask = "^1.1.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+black = "^20.8b1"
+flake8 = "^3.9.1"
+rope = "^0.19.0"
+python-dotenv = "^0.17.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
