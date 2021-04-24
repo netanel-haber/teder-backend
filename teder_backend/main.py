@@ -1,5 +1,5 @@
-from flask import Flask, request
-from flask_socketio import SocketIO, join_room, send
+from flask import Flask
+from flask_socketio import SocketIO, join_room
 from .manage_rooms import make_room, rooms, RoomDoesNotExist
 from .room import RoomState
 
